@@ -12,6 +12,7 @@ const uiSlice= createSlice({
         } // added new state for managing error state.
     }
 });
+
 export const uiActions =uiSlice.actions;
 
 export default uiSlice;
